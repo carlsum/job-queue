@@ -28,7 +28,7 @@ Published through [JitPack](https://jitpack.io/#carlsum/job-queue). Requires Jav
 <dependency>
   <groupId>com.github.carlsum</groupId>
   <artifactId>job-queue</artifactId>
-  <version>v0.1.0</version>
+  <version>v0.1.1</version>
 </dependency>
 ```
 
