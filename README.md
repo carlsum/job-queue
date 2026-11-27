@@ -13,6 +13,25 @@ jobs live in a table next to your data, and can be enqueued in the same transact
 - **Virtual-thread workers** with a concurrency limit and graceful shutdown.
 - **No runtime dependencies**: plain JDBC. Bring your own driver and connection pool.
 
+## Installation
+
+Published through [JitPack](https://jitpack.io/#carlsum/job-queue). Requires Java 21+.
+
+```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
+<dependency>
+  <groupId>com.github.carlsum</groupId>
+  <artifactId>job-queue</artifactId>
+  <version>v0.1.0</version>
+</dependency>
+```
+
 ## Usage
 
 ```java
